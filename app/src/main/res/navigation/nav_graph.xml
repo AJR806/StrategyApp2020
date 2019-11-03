@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/matchInfo">
+    <fragment android:id="@+id/matchInfo"
+              android:name="org.daredevils2512.yes.MatchInfo"
+              android:label="match_info_fragment"
+              tools:layout="@layout/match_info_fragment">
+        <action
+                android:id="@+id/action_match_ready"
+                app:destination="@id/match"/>
+    </fragment>
+    <fragment android:id="@+id/match"
+              android:name="org.daredevils2512.yes.Match"
+              android:label="fragment_match"
+              tools:layout="@layout/fragment_match"/>
+</navigation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MatchInfo">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="200dp">
+        <EditText
+                android:id="@+id/event_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/frick"
+                android:layout_marginTop="25dp"
+                android:textSize="40sp"
+                android:inputType="textCapCharacters"/>
+
+        <Spinner android:id="@+id/match_type_spinner"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="35dp"
+                 tools:listitem="@layout/sample_item"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/yum"
+                android:layout_marginTop="35dp"
+                android:textSize="40sp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/oof"
+                android:layout_marginTop="35dp"
+                android:textSize="40sp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/team_number"
+                android:layout_marginTop="35dp"
+                android:textSize="40sp"/>
+        <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                tools:listitem="@layout/sample_item"/>
+
+        <Button
+                android:id="@+id/match_ready_button"
+                android:layout_width="500dp"
+                android:layout_height="100dp"
+                android:text="Match Ready"
+                android:textSize="60sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">yes</string>
+    <string name="frick">Event Code</string>
+    <string name="yum">Username</string>
+    <string name="oof">Match Number</string>
+    <string name="sample_text">Yeeet</string>
+    <string name="team_number">Team Number</string>
+    <string-array name="colors">
+        <item>Red 1</item>
+        <item>Red 2</item>
+        <item>Red 3</item>
+        <item>Blue 1</item>
+        <item>Blue 2</item>
+        <item>Blue 3</item>
+    </string-array>
+    <string-array name="match_type">
+        <item>Practice Match</item>
+        <item>Qualifications</item>
+        <item>Finals</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="match_start">Match Start</string>
+</resources>
